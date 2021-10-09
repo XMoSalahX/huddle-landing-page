@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: #674bb1;
+    background-image: url(images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.body {
+    padding: 3%;
+    margin: 0;
+    padding-bottom: 0;
+    height: 100%;
+}
+
+header {
+    margin-bottom: 5%;
+}
+
+main {
+    display: grid;
+    grid-template-areas: " pic pic pic pic pic content content content content";
+    grid-template-columns: repeat(9, 1fr);
+    height: 550px;
+    width: 100%;
+}
+
+.img {
+    grid-area: pic;
+}
+
+main div img {
+    width: 92%;
+}
+
+.content {
+    grid-area: content;
+    width: 79%;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    margin-top: 10%;
+    font-size: 48px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+button {
+    color: #674bb1;
+    padding: 20px;
+    width: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border: none;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #e980e7;
+    color: white;
+}
+
+.social div {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 10px;
+}
+
+.social div:hover {
+    border: 1px solid #e980e7;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 120px;
+}
+
+a:hover {
+    color: #e980e7;
+}
+
+i {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    color: white;
+}
+
+.social div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social div:hover i {
+    color: #e980e7;
+}

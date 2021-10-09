@@ -7,7 +7,7 @@ body {
     margin: 0;
     height: 100vh;
     background-color: #674bb1;
-    background-image: url(images/bg-desktop.svg);
+    background-image: url(../images/bg-desktop.svg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -99,6 +99,11 @@ button:hover {
     display: flex;
     justify-content: flex-end;
     margin-top: 120px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 a:hover {
